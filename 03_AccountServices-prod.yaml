@@ -1,5 +1,5 @@
 account:
-  message: "Welcome to MSEDCL bank account REST API - Prod"
+  message: "Welcome to MSEDCL bank account REST API - Prod New"
   contactDetails:
     name: "PROD"
     email: "prod@msedcl.in"
