@@ -14,9 +14,6 @@ spring:
         password: 
         url: jdbc:mysql://localhost:3306/customer_db
         driver-class-name: com.mysql.cj.jdbc.Driver
-  profiles:
-    active:
-      - "uat" 
 springdoc:
   swagger-ui:
     supported-submit-methods:
