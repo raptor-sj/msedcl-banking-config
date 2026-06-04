@@ -1,0 +1,39 @@
+#spring.application.name=02_CustomerService
+#spring.datasource.username=root
+#spring.datasource.password=
+#spring.datasource.url=jdbc:mysql://localhost:3306/customer_db
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#springdoc.swagger-ui.supportedSubmitMethods=
+#springdoc.api-docs.enabled=false
+#logging.file.name=logs/customers.log
+spring:
+  application:
+    name: "02_CustomerService"
+  datasource:
+        username: root 
+        password: 
+        url: jdbc:mysql://localhost:3306/customer_db
+        driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active:
+      - "uat" 
+springdoc:
+  swagger-ui:
+    supported-submit-methods:
+  api-docs:
+    enabled: false
+logging:
+  file:
+    name: logs/customers.log
+
+#CUSTOM PROPERTIES - Used in application
+build:
+  version: "1.0"
+customer:
+  message: "Welcome to MSEDCL bank customer created REST API - Default"
+  contactDetails:
+     name: "DEFAULT"
+     email: "default@msedcl.in"
+  onCallSupport:
+     - 1234567890
+     - 9876543210
