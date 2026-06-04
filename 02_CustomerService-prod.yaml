@@ -27,7 +27,7 @@ logging:
 build:
   version: "1.0"
 customer:
-  message: "Welcome to MSEDCL bank customer created REST API - Prod"
+  message: "Welcome to MSEDCL bank customer created REST API - Prod New"
   contactDetails:
      name: "PROD"
      email: "prod@msedcl.in"
