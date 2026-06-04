@@ -1,0 +1,8 @@
+transaction:
+  message: "Welcome to MSEDCL bank transaction REST API - Prod"
+  contactDetails:
+    name: "PROD"
+    email: "prod@msedcl.in"
+  onCallSupport:
+    - 1234567890
+    - 9876543210

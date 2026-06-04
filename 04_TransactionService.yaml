@@ -1,0 +1,8 @@
+transaction:
+  message: "Welcome to MSEDCL bank transaction REST API - Default"
+  contactDetails:
+    name: "DEFAULT"
+    email: "default@msedcl.in"
+  onCallSupport:
+    - 1234567890
+    - 9876543210
