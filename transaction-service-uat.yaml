@@ -6,3 +6,10 @@ transaction:
   onCallSupport:
     - 1234567890
     - 9876543210
+build:
+  version: "1.0"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
