@@ -8,7 +8,7 @@
 #logging.file.name=logs/customers.log
 spring:
   application:
-    name: "02_CustomerService"
+    name: "customer-service"
   datasource:
         username: root 
         password: 
