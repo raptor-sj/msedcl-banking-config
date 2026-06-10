@@ -1,3 +1,8 @@
+spring:
+  application:
+    name: "account-services"
+build:
+  version: "1.0"
 account:
   message: "Welcome to MSEDCL bank account REST API - Uat"
   contactDetails:
