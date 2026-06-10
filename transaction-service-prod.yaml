@@ -9,7 +9,7 @@ transaction:
 build:
   version: "1.0"
 transaction:
-  message: "Welcome to MSEDCL bank transaction REST API - Default"
+  message: "Welcome to MSEDCL bank transaction REST API - Prod"
   contactDetails:
     name: "DEFAULT"
     email: "default@msedcl.in"
