@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: "account-services"
 account:
   message: "Welcome to MSEDCL bank account REST API - Prod New"
   contactDetails:
@@ -6,3 +9,5 @@ account:
   onCallSupport:
     - 1234567890
     - 9876543210
+build:
+  version: "1.0"
